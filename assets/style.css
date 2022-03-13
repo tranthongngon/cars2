@@ -395,8 +395,7 @@ html {
     color: #b33030;
 }
 
-.car-thumb a,
-.car-thumb a img {
+.car-thumb img {
     width: 100%;
     height: 100%;
     display: block;
