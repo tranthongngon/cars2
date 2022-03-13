@@ -153,9 +153,7 @@ const renderData = function(arrayCars) {
         `<li class="car-item ${index}"> 
             <article class="post post-car">
                 <div class="car-thumb">
-                    <a href="#">
-                        <img src="${car.image}" alt="${car.name}">
-                    </a>
+                    <img src="${car.image}" alt="${car.name}">
                     <div class="car-action">
                         <p class="edit" data-edit=${car.id}>
                             <i class="fa fa-edit"></i>

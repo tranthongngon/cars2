@@ -314,7 +314,6 @@ html {
     position: relative;
     cursor: pointer;
     overflow: hidden;
-    pointer-events: none;
 }
 
 .car-thumb::before {
