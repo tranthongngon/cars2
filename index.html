@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Cars</title>
+
+    <link rel="icon" href="../assets/favicon.ico" sizes="32x32">
+    <link rel="icon" href="../assets/favicon.ico" sizes="192x192">
+    <link rel="stylesheet" href="../assets/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="site-wrapper">
+        <div class="loading">
+            <img src="../assets/208.gif" alt="loading">
+        </div>
+        <div class="site-content">
+            
+            <div class="container">
+                <div class="site-content--inner">
+                    <div class="title">
+                        <h1 class="text-title">
+                            App Cars
+                            <i class="fa-solid fa-pen-to-square"></i>
+                        </h1>
+                    </div>
+                    <ul class="list-cars flex-box flex-box-3i">
+                        
+                    </ul>
+                    <div class="button-add-car">
+                        <button class="btn btn-new-car">Add new car</button>
+                    </div>
+                    <div class="form-popup">
+                        <div class="form-wrapper">
+                            <div class="form-inner">
+                                <div class="form-title">
+                                    <h3 class="form-text">
+                                        Add Car
+                                    </h3>
+                                </div>
+                                <form action="#" class="form-parent">
+                                    <div class="field-input field-name">
+                                        <input type="text" class="name input-value" placeholder="name">
+                                    </div>
+                                    <div class="field-input field-link">
+                                        <input type="text" class="link-image input-value" placeholder="link image">
+                                    </div>
+                                    <div class="field-input field-price">
+                                        <input type="text" class="price input-value" placeholder="price">
+                                    </div>
+                                    <div class="field-input field-description">
+                                        <textarea type="text" class="description input-value" placeholder="description" rows="7"></textarea>
+                                    </div>
+                                </form>
+                                <button class="btn btn-submit">Submit</button>
+                                <button class="btn btn-update">update</button>
+                                <p class="close-popup">
+                                    <img src="../assets/close.png" alt="close">
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <a href="#" class="mark-up"></a>
+        </div>
+    </div>
+   
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script type="module" src="../controller/main.js"></script>
+</body>
+</html>
