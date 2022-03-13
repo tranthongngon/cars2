@@ -17,7 +17,7 @@ const closePopup = getEle(".close-popup");
 const markUp = getEle(".mark-up");
 const btnSubmit = getEle(".btn-submit");
 const listCars = getEle(".list-cars");
-let inputValue = geteleAll(".input-value");
+const inputValue = geteleAll(".input-value");
 const btnUpdate = getEle('.btn-update');
 const loading = getEle(".loading");
 
@@ -153,7 +153,7 @@ const renderData = function(arrayCars) {
         `<li class="car-item ${index}"> 
             <article class="post post-car">
                 <div class="car-thumb">
-                    <a href="">
+                    <a href="#">
                         <img src="${car.image}" alt="${car.name}">
                     </a>
                     <div class="car-action">
